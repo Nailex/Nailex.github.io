@@ -1,0 +1,101 @@
+body
+{
+  background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png);
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 10px 0 ;
+	padding: 0 ;
+	text-align: center ;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+  color: white;
+
+}
+h2{
+  font-size: 30px;
+}
+
+.imagedefond {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    height: 258px;
+    filter: blur(0.5px);
+
+    }
+
+#prenom{
+    font-size: 40px;
+    position: fixed;
+    left: 0;
+    right: 0;  
+    z-index: 9999;
+    color: white;
+}
+#bienvenue{
+    font-size: 20px;
+    position: relative;
+    left: 0;
+    right: 0;  
+    z-index: 9999;
+    color: white;
+    height: 258px;
+}
+
+#moi{
+  width:auto;
+  height:auto;
+  background:rgb(31, 30, 30);
+  text-align: left;
+  font-size: 2em;
+  margin: 5%;
+  color: white;
+    
+}
+
+
+ul { 
+    position: left;
+  
+  } ul li { 
+    list-style: none; 
+    text-align: left; 
+  
+  } ul li a { 
+    color: rgb(73, 73, 73); 
+    text-decoration: none; 
+    font-size: 3em; 
+    padding: 5px 20px; 
+    display: inline-flex; 
+    font-weight: 700; 
+    transition: 1s;
+  
+  } ul:hover li a { 
+    color: #0002; 
+  
+  } ul li:hover a { 
+    color: #000; 
+    background: rgba(255,255,255,1);
+  
+  } ul li a:before { 
+    content: ''; 
+    position: center; 
+    left: 0; 
+    transform: translate(-50%,-50%); 
+    display: center; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 5em; 
+    color: white; 
+    border-radius: 50%; 
+    z-index: -1; 
+    opacity: 0; 
+    font-weight: 900; 
+    text-transform: uppercase; 
+    letter-spacing: 500px; 
+    transition: letter-spacing 0.5s,left 0.5s; 
+
+  }
